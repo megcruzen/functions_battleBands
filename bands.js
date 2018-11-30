@@ -4,9 +4,11 @@ Your job is to write a function that accepts any band name as an argument. The f
 
 let bandNumber = 0;
 
-const takeNumber = function (name) {
+// const takeNumber = bandName => {
+    
+const takeNumber = function (bandName) {
     bandNumber ++;
-    return `${bandNumber}. ${name}`
+    return `${bandNumber}. ${bandName}`
 }
 
 const scum = takeNumber("Galactic Scum")
